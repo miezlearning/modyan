@@ -7,7 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
-<body class="bg-gray-100 text-gray-900 antialiased">
+<body class="bg-gray-100 text-gray-900 antialiased pt-20">
     @include('layouts.partials.navbar')
     <main class="container mx-auto px-4">
         @yield('content')
