@@ -7,7 +7,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
-<body class="bg-gray-900 text-gray-100 antialiased pt-20" style="background-image: url('/path-to-modern-texture.png'); background-size: cover; background-attachment: fixed;">
+<body class="font-heycomic bg-gray-900 text-gray-100 antialiased pt-20" style="background-image: url('/path-to-modern-texture.png'); background-size: cover; background-attachment: fixed;">
     @include('layouts.partials.navbar')
     <main class="container mx-auto px-4">
         @yield('content')
