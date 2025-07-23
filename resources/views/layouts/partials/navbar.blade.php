@@ -135,13 +135,12 @@
     @apply text-white;
 }
 
-/* Hover Indicator - Professional UX standards */
 #hover-indicator {
     transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     position: absolute;
     z-index: 1;
-    border-radius: 0.75rem; /* lebih rounded */
-    background: rgba(59, 130, 246, 0.2); /* lebih terang */
+    border-radius: 0.75rem; 
+    background: rgba(59, 130, 246, 0.2); 
     border: 1px solid rgba(59, 130, 246, 0.4);
     box-shadow: 
         0 0 25px rgba(59, 130, 246, 0.3),
@@ -151,9 +150,8 @@
     -webkit-backdrop-filter: blur(8px);
 }
 
-/* Ukuran yang lebih besar dengan padding 8px di semua sisi */
 #hover-indicator::before {
-    display: none; /* hilangkan pseudo element yang bikin sempit */
+    display: none; 
 }
 
 #hover-indicator:hover::before {
